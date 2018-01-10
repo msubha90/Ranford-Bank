@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="12" failed="3" total="24" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite" duration-ms="32390" started-at="2017-07-25T04:30:47Z" finished-at="2017-07-25T04:31:19Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="31496" started-at="2017-07-25T04:30:47Z" finished-at="2017-07-25T04:31:18Z">
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <test-method status="PASS" signature="verify_launch(java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_launch" is-config="true" duration-ms="6574" started-at="2017-07-25T10:00:47Z" finished-at="2017-07-25T10:00:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://seoemirates.com/Build2/home.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_launch -->
+        <test-method status="PASS" signature="verify_login()[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_login" duration-ms="1479" started-at="2017-07-25T10:00:54Z" finished-at="2017-07-25T10:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="PASS" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_new_branch" duration-ms="3137" started-at="2017-07-25T10:00:55Z" data-provider="branchdata" finished-at="2017-07-25T10:00:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paradise11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Paradise]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50063]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Andhra Pradesh]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[secundarabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="PASS" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_new_branch" duration-ms="2843" started-at="2017-07-25T10:00:58Z" data-provider="branchdata" finished-at="2017-07-25T10:01:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Madhurai22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Madhrai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[60009]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MADHURAI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="PASS" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_new_branch" duration-ms="2849" started-at="2017-07-25T10:01:01Z" data-provider="branchdata" finished-at="2017-07-25T10:01:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi21]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45901]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="PASS" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_new_branch" duration-ms="3004" started-at="2017-07-25T10:01:04Z" data-provider="branchdata" finished-at="2017-07-25T10:01:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Goa4457]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Goa456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20981]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="PASS" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_new_branch" duration-ms="2326" started-at="2017-07-25T10:01:07Z" data-provider="branchdata" finished-at="2017-07-25T10:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai55]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[67540]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[MAHARASTRA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MUMBAI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="PASS" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_new_branch" duration-ms="2367" started-at="2017-07-25T10:01:09Z" data-provider="branchdata" finished-at="2017-07-25T10:01:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Belandur66]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Belandur]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12009]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[BANGLORE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="PASS" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_new_branch" duration-ms="2135" started-at="2017-07-25T10:01:12Z" data-provider="branchdata" finished-at="2017-07-25T10:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thiruva77]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thiruvan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10008]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kerala]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[THIRUVANANTHAPURAM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="PASS" signature="verify_new_employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_new_employee" duration-ms="4447" started-at="2017-07-25T10:01:14Z" data-provider="employeedata" finished-at="2017-07-25T10:01:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranjit12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PLead]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Paradise11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_employee -->
+        <test-method status="FAIL" signature="verify_new_employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_new_employee" duration-ms="1" started-at="2017-07-25T10:01:18Z" data-provider="employeedata" finished-at="2017-07-25T10:01:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sujit12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s12346]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TLead]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Madhurai22]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'MONTY-PC', ip: '192.168.3.143', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'MONTY-PC', ip: '192.168.3.143', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)
+	at com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_employee -->
+        <test-method status="FAIL" signature="verify_new_employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_new_employee" duration-ms="0" started-at="2017-07-25T10:01:18Z" data-provider="employeedata" finished-at="2017-07-25T10:01:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sunit12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s12347]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AGM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Delhi33]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'MONTY-PC', ip: '192.168.3.143', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'MONTY-PC', ip: '192.168.3.143', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)
+	at com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_employee -->
+        <test-method status="FAIL" signature="verify_new_employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@1b52d12]" name="verify_new_employee" duration-ms="0" started-at="2017-07-25T10:01:18Z" data-provider="employeedata" finished-at="2017-07-25T10:01:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binit12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s12348]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mngr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai55]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'MONTY-PC', ip: '192.168.3.143', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'MONTY-PC', ip: '192.168.3.143', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)
+	at com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_employee -->
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="798" started-at="2017-07-25T04:31:19Z" finished-at="2017-07-25T04:31:19Z">
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <test-method status="FAIL" signature="verify_launch(java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_launch" is-config="true" duration-ms="0" started-at="2017-07-25T10:01:19Z" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://seoemirates.com/Build2/home.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/w3c/dom/ElementTraversal]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/w3c/dom/ElementTraversal
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.xerces.parsers.AbstractDOMParser.startDocument(Unknown Source)
+	at org.apache.xerces.impl.dtd.XMLDTDValidator.startDocument(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentScannerImpl.startEntity(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.startDocumentParsing(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:98)
+	at org.openqa.selenium.firefox.internal.FileExtension.writeTo(FileExtension.java:61)
+	at org.openqa.selenium.firefox.internal.ClasspathExtension.writeTo(ClasspathExtension.java:64)
+	at org.openqa.selenium.firefox.FirefoxProfile.installExtensions(FirefoxProfile.java:441)
+	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:419)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:93)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:275)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:220)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:215)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:124)
+	at com.pagelibrary.com.ranford.Repository.launch(Repository.java:27)
+	at com.pagelibrary.com.ranford.TestExecution.verify_launch(TestExecution.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.w3c.dom.ElementTraversal
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_launch -->
+        <test-method status="SKIP" signature="verify_login()[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_login" duration-ms="0" started-at="2017-07-25T10:01:19Z" finished-at="2017-07-25T10:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="SKIP" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_new_branch" duration-ms="0" started-at="2017-07-25T10:01:19Z" data-provider="branchdata" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paradise11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Paradise]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50063]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Andhra Pradesh]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[secundarabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="SKIP" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_new_branch" duration-ms="1" started-at="2017-07-25T10:01:19Z" data-provider="branchdata" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Goa4457]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Goa456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20981]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="SKIP" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_new_branch" duration-ms="0" started-at="2017-07-25T10:01:19Z" data-provider="branchdata" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi21]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45901]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="SKIP" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_new_branch" duration-ms="0" started-at="2017-07-25T10:01:19Z" data-provider="branchdata" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Madhurai22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Madhrai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[60009]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MADHURAI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="SKIP" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_new_branch" duration-ms="0" started-at="2017-07-25T10:01:19Z" data-provider="branchdata" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thiruva77]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thiruvan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10008]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kerala]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[THIRUVANANTHAPURAM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="SKIP" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_new_branch" duration-ms="0" started-at="2017-07-25T10:01:19Z" data-provider="branchdata" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai55]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[67540]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[MAHARASTRA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MUMBAI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="SKIP" signature="verify_new_branch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_new_branch" duration-ms="0" started-at="2017-07-25T10:01:19Z" data-provider="branchdata" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Belandur66]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Belandur]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12009]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[BANGLORE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_branch -->
+        <test-method status="SKIP" signature="verify_new_employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_new_employee" duration-ms="0" started-at="2017-07-25T10:01:19Z" data-provider="employeedata" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranjit12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PLead]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Paradise11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_employee -->
+        <test-method status="SKIP" signature="verify_new_employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_new_employee" duration-ms="0" started-at="2017-07-25T10:01:19Z" data-provider="employeedata" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sujit12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s12346]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TLead]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Madhurai22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_employee -->
+        <test-method status="SKIP" signature="verify_new_employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_new_employee" duration-ms="0" started-at="2017-07-25T10:01:19Z" data-provider="employeedata" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binit12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s12348]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mngr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_employee -->
+        <test-method status="SKIP" signature="verify_new_employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@b4c3ab]" name="verify_new_employee" duration-ms="0" started-at="2017-07-25T10:01:19Z" data-provider="employeedata" finished-at="2017-07-25T10:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sunit12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s12347]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AGM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Delhi33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_new_employee -->
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </test> <!-- test2 -->
+  </suite> <!-- suite -->
+</testng-results>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="url" value="http://seoemirates.com/Build2/home.aspx"/>
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <methods>
+          <include name="verify_logout"/>
+          <include name="verify_launch"/>
+          <include name="verify_launch"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+      <class name="keywordDriven.Driven">
+        <methods>
+          <include name="excel_keyword"/>
+          <include name="launchbr"/>
+        </methods>
+      </class> <!-- keywordDriven.Driven -->
+    </classes>
+  </test> <!-- test1(failed) -->
+  <test name="test2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <methods>
+          <include name="verify_login"/>
+          <include name="verify_logout"/>
+          <include name="verify_launch"/>
+          <include name="verify_launch"/>
+          <include name="verify_output_excel_content_employee"/>
+          <include name="verify_output_excel_content_branch"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+      <class name="keywordDriven.Driven">
+        <methods>
+          <include name="launchbr"/>
+        </methods>
+      </class> <!-- keywordDriven.Driven -->
+    </classes>
+  </test> <!-- test2(failed) -->
+  <test name="test3(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <methods>
+          <include name="verify_login"/>
+          <include name="verify_logout"/>
+          <include name="verify_launch"/>
+          <include name="verify_launch"/>
+          <include name="verify_output_excel_content_employee"/>
+          <include name="verify_handle_table"/>
+          <include name="verify_output_excel_content_branch"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+      <class name="keywordDriven.Driven">
+        <methods>
+          <include name="launchbr"/>
+        </methods>
+      </class> <!-- keywordDriven.Driven -->
+    </classes>
+  </test> <!-- test3(failed) -->
+</suite> <!-- Failed suite [suite] -->

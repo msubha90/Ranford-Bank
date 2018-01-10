@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <methods>
+          <include name="verify_login"/>
+          <include name="verify_new_branch"/>
+          <include name="verify_new_employee"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <methods>
+          <include name="verify_login"/>
+          <include name="verify_new_employee"/>
+          <include name="verify_output_excel_content"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

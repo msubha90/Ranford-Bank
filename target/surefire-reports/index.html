@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-suite">
+              <span class="suite-name border-failed">suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-suite">
+                    <span>F:\mindQ\com.ranford\Mavenranford.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 3 failed,  12 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-suite" class="hide-methods failed suite-suite"> (hide)</a> <!-- hide-methods failed suite-suite -->
+                      <a href="#" panel-name="suite-suite" class="show-methods failed suite-suite"> (show)</a> <!-- show-methods failed suite-suite -->
+                    </span>
+                    <div class="method-list-content failed suite-suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_employee(Sunit12, s12347, AGM, Delhi33)">verify_new_employee(Sunit12, s12347, AGM, Delhi33)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_employee(Binit12, s12348, mngr, Mumbai55)">verify_new_employee(Binit12, s12348, mngr, Mumbai55)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_employee(Sujit12, s12346, TLead, Madhurai22)">verify_new_employee(Sujit12, s12346, TLead, Madhurai22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-suite" class="hide-methods skipped suite-suite"> (hide)</a> <!-- hide-methods skipped suite-suite -->
+                      <a href="#" panel-name="suite-suite" class="show-methods skipped suite-suite"> (show)</a> <!-- show-methods skipped suite-suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_login">verify_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM)">verify_new_branch(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI)">verify_new_branch(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad)">verify_new_branch(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Goa4457, Goa456, 20981, INDIA, GOA, GOA)">verify_new_branch(Goa4457, Goa456, 20981, INDIA, GOA, GOA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi)">verify_new_branch(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE)">verify_new_branch(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI)">verify_new_branch(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_employee(Ranjit12, s12345, PLead, Paradise11)">verify_new_employee(Ranjit12, s12345, PLead, Paradise11)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_employee(Sujit12, s12346, TLead, Madhurai22)">verify_new_employee(Sujit12, s12346, TLead, Madhurai22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_employee(Binit12, s12348, mngr, Mumbai55)">verify_new_employee(Binit12, s12348, mngr, Mumbai55)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_employee(Sunit12, s12347, AGM, Delhi33)">verify_new_employee(Sunit12, s12347, AGM, Delhi33)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-suite" class="hide-methods passed suite-suite"> (hide)</a> <!-- hide-methods passed suite-suite -->
+                      <a href="#" panel-name="suite-suite" class="show-methods passed suite-suite"> (show)</a> <!-- show-methods passed suite-suite -->
+                    </span>
+                    <div class="method-list-content passed suite-suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_login">verify_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI)">verify_new_branch(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI)">verify_new_branch(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE)">verify_new_branch(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Goa4457, Goa456, 20981, INDIA, GOA, GOA)">verify_new_branch(Goa4457, Goa456, 20981, INDIA, GOA, GOA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM)">verify_new_branch(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad)">verify_new_branch(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_branch(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi)">verify_new_branch(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.pagelibrary.com.ranford.TestExecution" hash-for-method="verify_new_employee(Ranjit12, s12345, PLead, Paradise11)">verify_new_employee(Ranjit12, s12345, PLead, Paradise11)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-suite" class="panel suite">
+          <div class="suite-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.pagelibrary.com.ranford.TestExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_employee(Sunit12, s12347, AGM, Delhi33)">
+                  </a> <!-- verify_new_employee(Sunit12, s12347, AGM, Delhi33) -->
+                  <span class="method-name">verify_new_employee</span>
+                  <span class="parameters">(Sunit12, s12347, AGM, Delhi33)</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;MONTY-PC&apos;, ip: &apos;192.168.3.143&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)
+	at com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+... Removed 21 stack frames<br/> org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;MONTY-PC&apos;, ip: &apos;192.168.3.143&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)
+	at com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+"</b><br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)<br>org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)<br>org.openqa.selenium.By$ByXPath.findElement(By.java:358)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)<br>com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)<br>com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)<br>com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br>org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_employee(Binit12, s12348, mngr, Mumbai55)">
+                  </a> <!-- verify_new_employee(Binit12, s12348, mngr, Mumbai55) -->
+                  <span class="method-name">verify_new_employee</span>
+                  <span class="parameters">(Binit12, s12348, mngr, Mumbai55)</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;MONTY-PC&apos;, ip: &apos;192.168.3.143&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)
+	at com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+... Removed 21 stack frames<br/> org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;MONTY-PC&apos;, ip: &apos;192.168.3.143&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)
+	at com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+"</b><br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)<br>org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)<br>org.openqa.selenium.By$ByXPath.findElement(By.java:358)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)<br>com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)<br>com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)<br>com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br>org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_employee(Sujit12, s12346, TLead, Madhurai22)">
+                  </a> <!-- verify_new_employee(Sujit12, s12346, TLead, Madhurai22) -->
+                  <span class="method-name">verify_new_employee</span>
+                  <span class="parameters">(Sujit12, s12346, TLead, Madhurai22)</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;MONTY-PC&apos;, ip: &apos;192.168.3.143&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)
+	at com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+... Removed 21 stack frames<br/> org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;MONTY-PC&apos;, ip: &apos;192.168.3.143&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)
+	at com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+"</b><br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:126)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:67)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)<br>org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)<br>org.openqa.selenium.By$ByXPath.findElement(By.java:358)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)<br>com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)<br>com.pagelibrary.com.ranford.Repository.new_employee(Repository.java:82)<br>com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br>org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite-class-failed -->
+          <div class="suite-suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.pagelibrary.com.ranford.TestExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login">
+                  </a> <!-- verify_login -->
+                  <span class="method-name">verify_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM)">
+                  </a> <!-- verify_new_branch(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI)">
+                  </a> <!-- verify_new_branch(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad)">
+                  </a> <!-- verify_new_branch(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Goa4457, Goa456, 20981, INDIA, GOA, GOA)">
+                  </a> <!-- verify_new_branch(Goa4457, Goa456, 20981, INDIA, GOA, GOA) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Goa4457, Goa456, 20981, INDIA, GOA, GOA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi)">
+                  </a> <!-- verify_new_branch(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE)">
+                  </a> <!-- verify_new_branch(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI)">
+                  </a> <!-- verify_new_branch(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_employee(Ranjit12, s12345, PLead, Paradise11)">
+                  </a> <!-- verify_new_employee(Ranjit12, s12345, PLead, Paradise11) -->
+                  <span class="method-name">verify_new_employee</span>
+                  <span class="parameters">(Ranjit12, s12345, PLead, Paradise11)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_employee(Sujit12, s12346, TLead, Madhurai22)">
+                  </a> <!-- verify_new_employee(Sujit12, s12346, TLead, Madhurai22) -->
+                  <span class="method-name">verify_new_employee</span>
+                  <span class="parameters">(Sujit12, s12346, TLead, Madhurai22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_employee(Binit12, s12348, mngr, Mumbai55)">
+                  </a> <!-- verify_new_employee(Binit12, s12348, mngr, Mumbai55) -->
+                  <span class="method-name">verify_new_employee</span>
+                  <span class="parameters">(Binit12, s12348, mngr, Mumbai55)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_employee(Sunit12, s12347, AGM, Delhi33)">
+                  </a> <!-- verify_new_employee(Sunit12, s12347, AGM, Delhi33) -->
+                  <span class="method-name">verify_new_employee</span>
+                  <span class="parameters">(Sunit12, s12347, AGM, Delhi33)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite-class-skipped -->
+          <div class="suite-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pagelibrary.com.ranford.TestExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login">
+                  </a> <!-- verify_login -->
+                  <span class="method-name">verify_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI)">
+                  </a> <!-- verify_new_branch(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI)">
+                  </a> <!-- verify_new_branch(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE)">
+                  </a> <!-- verify_new_branch(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Goa4457, Goa456, 20981, INDIA, GOA, GOA)">
+                  </a> <!-- verify_new_branch(Goa4457, Goa456, 20981, INDIA, GOA, GOA) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Goa4457, Goa456, 20981, INDIA, GOA, GOA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM)">
+                  </a> <!-- verify_new_branch(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad)">
+                  </a> <!-- verify_new_branch(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_branch(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi)">
+                  </a> <!-- verify_new_branch(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi) -->
+                  <span class="method-name">verify_new_branch</span>
+                  <span class="parameters">(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_new_employee(Ranjit12, s12345, PLead, Paradise11)">
+                  </a> <!-- verify_new_employee(Ranjit12, s12345, PLead, Paradise11) -->
+                  <span class="method-name">verify_new_employee</span>
+                  <span class="parameters">(Ranjit12, s12345, PLead, Paradise11)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite-class-passed -->
+        </div> <!-- panel suite -->
+        <div panel-name="test-xml-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\mindQ\com.ranford\Mavenranford.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;suite&quot;&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;http://seoemirates.com/Build2/home.aspx&quot;/&gt;
+  &lt;test name=&quot;test1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pagelibrary.com.ranford.TestExecution&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test1 --&gt;
+  &lt;test name=&quot;test2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pagelibrary.com.ranford.TestExecution&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test2 --&gt;
+&lt;/suite&gt; &lt;!-- suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">test2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_suite');
+function tableData_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verify_new_employee')
+data.setCell(0, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(0, 3, 4447);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_new_branch')
+data.setCell(1, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(1, 3, 3137);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verify_new_branch')
+data.setCell(2, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(2, 3, 3004);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verify_new_branch')
+data.setCell(3, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(3, 3, 2849);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify_new_branch')
+data.setCell(4, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(4, 3, 2843);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_new_branch')
+data.setCell(5, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(5, 3, 2367);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verify_new_branch')
+data.setCell(6, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(6, 3, 2326);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verify_new_branch')
+data.setCell(7, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(7, 3, 2135);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_login')
+data.setCell(8, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(8, 3, 1479);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verify_new_employee')
+data.setCell(9, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verify_new_branch')
+data.setCell(10, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verify_new_employee')
+data.setCell(11, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verify_new_employee')
+data.setCell(12, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verify_new_branch')
+data.setCell(13, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verify_new_branch')
+data.setCell(14, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verify_new_branch')
+data.setCell(15, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verify_login')
+data.setCell(16, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verify_new_employee')
+data.setCell(17, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verify_new_employee')
+data.setCell(18, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verify_new_employee')
+data.setCell(19, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verify_new_employee')
+data.setCell(20, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verify_new_branch')
+data.setCell(21, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verify_new_branch')
+data.setCell(22, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verify_new_branch')
+data.setCell(23, 2, 'com.pagelibrary.com.ranford.TestExecution')
+data.setCell(23, 3, 0);
+window.suiteTableData['suite']= { tableData: data, tableDiv: 'times-div-suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-suite">
+              </div> <!-- times-div-suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pagelibrary.com.ranford.TestExecution</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">verify_launch(http://seoemirates.com/Build2/home.aspx, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verify_login</span>
+                <span class="method-start">6584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad)</span>
+                <span class="method-start">8291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI)</span>
+                <span class="method-start">11428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi)</span>
+                <span class="method-start">14271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Goa4457, Goa456, 20981, INDIA, GOA, GOA)</span>
+                <span class="method-start">17120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI)</span>
+                <span class="method-start">20124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE)</span>
+                <span class="method-start">22450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM)</span>
+                <span class="method-start">24818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_employee(Ranjit12, s12345, PLead, Paradise11)</span>
+                <span class="method-start">27029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_new_employee(Sujit12, s12346, TLead, Madhurai22)</span>
+                <span class="method-start">31476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_new_employee(Sunit12, s12347, AGM, Delhi33)</span>
+                <span class="method-start">31491 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_new_employee(Binit12, s12348, mngr, Mumbai55)</span>
+                <span class="method-start">31493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_launch(http://seoemirates.com/Build2/home.aspx, firefox)</span>
+                <span class="method-start">31591 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verify_login</span>
+                <span class="method-start">32289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Paradise11, Paradise, 50063, INDIA, Andhra Pradesh, secundarabad)</span>
+                <span class="method-start">32340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Madhurai22, Madhrai, 60009, INDIA, Tamil Nadu, MADHURAI)</span>
+                <span class="method-start">32340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Delhi33, Delhi21, 45901, INDIA, Delhi, Delhi)</span>
+                <span class="method-start">32340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Goa4457, Goa456, 20981, INDIA, GOA, GOA)</span>
+                <span class="method-start">32340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Mumbai55, Mumbai, 67540, INDIA, MAHARASTRA, MUMBAI)</span>
+                <span class="method-start">32341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Belandur66, Belandur, 12009, INDIA, Karnataka, BANGLORE)</span>
+                <span class="method-start">32341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_branch(Thiruva77, Thiruvan, 10008, INDIA, Kerala, THIRUVANANTHAPURAM)</span>
+                <span class="method-start">32341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_employee(Ranjit12, s12345, PLead, Paradise11)</span>
+                <span class="method-start">32389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_employee(Sujit12, s12346, TLead, Madhurai22)</span>
+                <span class="method-start">32389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_employee(Sunit12, s12347, AGM, Delhi33)</span>
+                <span class="method-start">32389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_new_employee(Binit12, s12348, mngr, Mumbai55)</span>
+                <span class="method-start">32389 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">test1</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">1.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">test2</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">137.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">test3</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">0</td><td class="numi">0.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">1</td><td class="numi">1</td><td class="numi_attn">5</td><td class="numi_attn">3</td><td class="numi">139.4 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">test1 &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">keywordDriven.Driven</td><td><a href="#m1"><b>launchbr</b>  </a></td><td class="numi">1</td><td>1501613341377</td><td class="numi">0</td></tr>
+<tr><th colspan="4">test1 &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">keywordDriven.Driven</td><td><a href="#m2"><b>excel_keyword</b>  </a></td><td class="numi">1</td><td>1501613342399</td><td class="numi">2</td></tr>
+<tr><th colspan="4">test2 &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.pagelibrary.com.ranford.TestExecution</td><td><a href="#m3"><b>verify_logout</b>  </a></td><td class="numi">1</td><td>1501613459890</td><td class="numi">0</td></tr>
+<tr><th colspan="4">test2 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="3">com.pagelibrary.com.ranford.TestExecution</td><td><a href="#m4"><b>verify_login</b>  </a></td><td class="numi">1</td><td>1501613378710</td><td class="numi">20126</td></tr><tr class="failedodd"><td><a href="#m5"><b>verify_output_excel_content_branch</b>  </a></td><td class="numi">1</td><td>1501613398848</td><td class="numi">20615</td></tr><tr class="failedodd"><td><a href="#m6"><b>verify_output_excel_content_employee</b>  </a></td><td class="numi">1</td><td>1501613419471</td><td class="numi">20338</td></tr>
+<tr><th colspan="4">test2 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.pagelibrary.com.ranford.TestExecution</td><td><a href="#m7"><b>verify_handle_table</b>  </a></td><td class="numi">1</td><td>1501613439820</td><td class="numi">20067</td></tr>
+<tr><th colspan="4">test3 &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.pagelibrary.com.ranford.TestExecution</td><td><a href="#m8"><b>verify_launch</b>  </a></td><td class="numi">1</td><td>1501613480024</td><td class="numi">0</td></tr>
+<tr><th colspan="4">test3 &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.pagelibrary.com.ranford.TestExecution</td><td><a href="#m9"><b>verify_logout</b>  </a></td><td class="numi">1</td><td>1501613480724</td><td class="numi">0</td></tr>
+<tr><th colspan="4">test3 &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="4">com.pagelibrary.com.ranford.TestExecution</td><td><a href="#m10"><b>verify_login</b>  </a></td><td class="numi">1</td><td>1501613480711</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m11"><b>verify_output_excel_content_branch</b>  </a></td><td class="numi">1</td><td>1501613480714</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m12"><b>verify_output_excel_content_employee</b>  </a></td><td class="numi">1</td><td>1501613480718</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m13"><b>verify_handle_table</b>  </a></td><td class="numi">1</td><td>1501613480721</td><td class="numi">1</td></tr>
+</table>
+<h1>test1</h1>
+<h2 id="m1">keywordDriven.Driven:launchbr</h2>
+<div style="padding-left:3em">
+<p>org/w3c/dom/ElementTraversal</p>
+java.lang.ClassLoader.defineClass1(Native Method)
+<br/>at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+<br/>at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+<br/>at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+<br/>at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+<br/>at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+<br/>at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+<br/>at java.security.AccessController.doPrivileged(Native Method)
+<br/>at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+<br/>at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+<br/>at org.apache.xerces.parsers.AbstractDOMParser.startDocument(Unknown Source)
+<br/>at org.apache.xerces.impl.dtd.XMLDTDValidator.startDocument(Unknown Source)
+<br/>at org.apache.xerces.impl.XMLDocumentScannerImpl.startEntity(Unknown Source)
+<br/>at org.apache.xerces.impl.XMLVersionDetector.startDocumentParsing(Unknown Source)
+<br/>at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+<br/>at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+<br/>at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+<br/>at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:98)
+<br/>at org.openqa.selenium.firefox.internal.FileExtension.writeTo(FileExtension.java:61)
+<br/>at org.openqa.selenium.firefox.internal.ClasspathExtension.writeTo(ClasspathExtension.java:64)
+<br/>at org.openqa.selenium.firefox.FirefoxProfile.installExtensions(FirefoxProfile.java:441)
+<br/>at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:419)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:93)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:275)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:220)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:215)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:124)
+<br/>at keywordDriven.Driven.launchbr(Driven.java:60)
+<br/>23 lines not shown
+<p>Caused by org.w3c.dom.ElementTraversal</p>
+java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+<br/>at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+<br/>at java.lang.ClassLoader.defineClass1(Native Method)
+<br/>at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+<br/>at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+<br/>at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+<br/>at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+<br/>at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+<br/>at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+<br/>at java.security.AccessController.doPrivileged(Native Method)
+<br/>at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+<br/>at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+<br/>at org.apache.xerces.parsers.AbstractDOMParser.startDocument(Unknown Source)
+<br/>at org.apache.xerces.impl.dtd.XMLDTDValidator.startDocument(Unknown Source)
+<br/>at org.apache.xerces.impl.XMLDocumentScannerImpl.startEntity(Unknown Source)
+<br/>at org.apache.xerces.impl.XMLVersionDetector.startDocumentParsing(Unknown Source)
+<br/>at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+<br/>at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+<br/>at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+<br/>at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:98)
+<br/>at org.openqa.selenium.firefox.internal.FileExtension.writeTo(FileExtension.java:61)
+<br/>at org.openqa.selenium.firefox.internal.ClasspathExtension.writeTo(ClasspathExtension.java:64)
+<br/>at org.openqa.selenium.firefox.FirefoxProfile.installExtensions(FirefoxProfile.java:441)
+<br/>at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:419)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:93)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:275)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:220)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:215)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:124)
+<br/>at keywordDriven.Driven.launchbr(Driven.java:60)
+<br/>23 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">keywordDriven.Driven:excel_keyword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>test2</h1>
+<h2 id="m3">com.pagelibrary.com.ranford.TestExecution:verify_logout</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@src=&apos;images/admin_but_03.jpg&apos;]&quot;}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;MONTY-PC&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\MONTY\AppData\Local\Temp\scoped_dir4392_25861}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bcb2b708b29b1081ce22fc2ce828dd6f
+*** Element info: {Using=xpath, value=//*[@src=&apos;images/admin_but_03.jpg&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+<br/>at com.pagelibrary.com.ranford.New_Employee.logout(New_Employee.java:37)
+<br/>at com.pagelibrary.com.ranford.Repository.logout(Repository.java:133)
+<br/>at com.pagelibrary.com.ranford.TestExecution.verify_logout(TestExecution.java:54)
+<br/>23 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.pagelibrary.com.ranford.TestExecution:verify_output_excel_content_employee</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@src=&apos;images/emp_btn.jpg&apos;]&quot;}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;MONTY-PC&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\MONTY\AppData\Local\Temp\scoped_dir4392_25861}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bcb2b708b29b1081ce22fc2ce828dd6f
+*** Element info: {Using=xpath, value=//*[@src=&apos;images/emp_btn.jpg&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+<br/>at com.pagelibrary.com.ranford.AdminPage.employee(AdminPage.java:27)
+<br/>at com.pagelibrary.com.ranford.TestExecution.verify_output_excel_content_employee(TestExecution.java:104)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.pagelibrary.com.ranford.TestExecution:verify_login</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;txtuId&quot;}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;MONTY-PC&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\MONTY\AppData\Local\Temp\scoped_dir4392_25861}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bcb2b708b29b1081ce22fc2ce828dd6f
+*** Element info: {Using=id, value=txtuId}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:399)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:215)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+<br/>at com.pagelibrary.com.ranford.LoginPage.username(LoginPage.java:12)
+<br/>at com.pagelibrary.com.ranford.Repository.login(Repository.java:45)
+<br/>at com.pagelibrary.com.ranford.TestExecution.verify_login(TestExecution.java:24)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.pagelibrary.com.ranford.TestExecution:verify_output_excel_content_branch</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@src=&apos;images/Branches_but.jpg&apos;]&quot;}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;MONTY-PC&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\MONTY\AppData\Local\Temp\scoped_dir4392_25861}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bcb2b708b29b1081ce22fc2ce828dd6f
+*** Element info: {Using=xpath, value=//*[@src=&apos;images/Branches_but.jpg&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+<br/>at com.pagelibrary.com.ranford.AdminPage.branch(AdminPage.java:12)
+<br/>at com.pagelibrary.com.ranford.TestExecution.verify_output_excel_content_branch(TestExecution.java:63)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.pagelibrary.com.ranford.TestExecution:verify_handle_table</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>test3</h1>
+<h2 id="m8">com.pagelibrary.com.ranford.TestExecution:verify_launch</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>http://seoemirates.com/Build2/home.aspx</td>
+<td>firefox</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+<p>org/w3c/dom/ElementTraversal</p>
+java.lang.ClassLoader.defineClass1(Native Method)
+<br/>at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+<br/>at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+<br/>at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+<br/>at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+<br/>at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+<br/>at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+<br/>at java.security.AccessController.doPrivileged(Native Method)
+<br/>at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+<br/>at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+<br/>at org.apache.xerces.parsers.AbstractDOMParser.startDocument(Unknown Source)
+<br/>at org.apache.xerces.impl.dtd.XMLDTDValidator.startDocument(Unknown Source)
+<br/>at org.apache.xerces.impl.XMLDocumentScannerImpl.startEntity(Unknown Source)
+<br/>at org.apache.xerces.impl.XMLVersionDetector.startDocumentParsing(Unknown Source)
+<br/>at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+<br/>at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+<br/>at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+<br/>at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:98)
+<br/>at org.openqa.selenium.firefox.internal.FileExtension.writeTo(FileExtension.java:61)
+<br/>at org.openqa.selenium.firefox.internal.ClasspathExtension.writeTo(ClasspathExtension.java:64)
+<br/>at org.openqa.selenium.firefox.FirefoxProfile.installExtensions(FirefoxProfile.java:441)
+<br/>at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:419)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:93)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:275)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:220)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:215)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:124)
+<br/>at com.pagelibrary.com.ranford.Repository.launch(Repository.java:28)
+<br/>at com.pagelibrary.com.ranford.TestExecution.verify_launch(TestExecution.java:18)
+<br/>23 lines not shown
+<p>Caused by org.w3c.dom.ElementTraversal</p>
+java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+<br/>at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+<br/>at java.lang.ClassLoader.defineClass1(Native Method)
+<br/>at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+<br/>at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+<br/>at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+<br/>at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+<br/>at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+<br/>at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+<br/>at java.security.AccessController.doPrivileged(Native Method)
+<br/>at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+<br/>at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+<br/>at org.apache.xerces.parsers.AbstractDOMParser.startDocument(Unknown Source)
+<br/>at org.apache.xerces.impl.dtd.XMLDTDValidator.startDocument(Unknown Source)
+<br/>at org.apache.xerces.impl.XMLDocumentScannerImpl.startEntity(Unknown Source)
+<br/>at org.apache.xerces.impl.XMLVersionDetector.startDocumentParsing(Unknown Source)
+<br/>at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+<br/>at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+<br/>at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+<br/>at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+<br/>at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:98)
+<br/>at org.openqa.selenium.firefox.internal.FileExtension.writeTo(FileExtension.java:61)
+<br/>at org.openqa.selenium.firefox.internal.ClasspathExtension.writeTo(ClasspathExtension.java:64)
+<br/>at org.openqa.selenium.firefox.FirefoxProfile.installExtensions(FirefoxProfile.java:441)
+<br/>at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:419)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:93)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:275)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:220)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:215)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:124)
+<br/>at com.pagelibrary.com.ranford.Repository.launch(Repository.java:28)
+<br/>at com.pagelibrary.com.ranford.TestExecution.verify_launch(TestExecution.java:18)
+<br/>23 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.pagelibrary.com.ranford.TestExecution:verify_logout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.pagelibrary.com.ranford.TestExecution:verify_output_excel_content_branch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.pagelibrary.com.ranford.TestExecution:verify_login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.pagelibrary.com.ranford.TestExecution:verify_handle_table</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.pagelibrary.com.ranford.TestExecution:verify_output_excel_content_employee</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

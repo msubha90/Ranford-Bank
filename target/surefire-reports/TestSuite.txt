@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 4, Errors: 0, Skipped: 12, Time elapsed: 32.937 s <<< FAILURE! - in TestSuite
+verify_new_employee(com.pagelibrary.com.ranford.TestExecution)  Time elapsed: 0.016 s  <<< FAILURE!
+org.openqa.selenium.remote.SessionNotFoundException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'MONTY-PC', ip: '192.168.3.143', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+
+verify_new_employee(com.pagelibrary.com.ranford.TestExecution)  Time elapsed: 0.001 s  <<< FAILURE!
+org.openqa.selenium.remote.SessionNotFoundException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'MONTY-PC', ip: '192.168.3.143', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+
+verify_new_employee(com.pagelibrary.com.ranford.TestExecution)  Time elapsed: 0.001 s  <<< FAILURE!
+org.openqa.selenium.remote.SessionNotFoundException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'MONTY-PC', ip: '192.168.3.143', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+	at com.pagelibrary.com.ranford.TestExecution.verify_new_employee(TestExecution.java:33)
+
+verify_launch(com.pagelibrary.com.ranford.TestExecution)  Time elapsed: 0.796 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/w3c/dom/ElementTraversal
+	at com.pagelibrary.com.ranford.TestExecution.verify_launch(TestExecution.java:14)
+Caused by: java.lang.ClassNotFoundException: org.w3c.dom.ElementTraversal
+	at com.pagelibrary.com.ranford.TestExecution.verify_launch(TestExecution.java:14)
+

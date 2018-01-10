@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+<parameter name="url" value="http://seoemirates.com/Build2/home.aspx"/>
+
+<test name="test1">
+<classes>
+<class name="keywordDriven.Driven">
+
+</class>
+</classes>
+
+
+
+</test>
+
+<test name="test2">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.pagelibrary.com.ranford.TestExecution">
+
+</class>
+</classes>
+</test>
+
+<test name="test3">
+<parameter name="browser" value="firefox"/>
+<classes>
+<class name="com.pagelibrary.com.ranford.TestExecution"></class>
+</classes>
+
+</test>
+
+</suite>
